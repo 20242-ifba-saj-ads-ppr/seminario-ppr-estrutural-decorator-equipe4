@@ -31,8 +31,8 @@ classDiagram
         +main(String[] args)
     }
 
-    PedidoCafe --> Cafe :
-    CafeteriaSemDecorator --> PedidoCafe :
+    PedidoCafe --> Cafe
+    CafeteriaSemDecorator --> PedidoCafe
 ```
 
 ## UML com o Padrão Decorator
@@ -90,7 +90,7 @@ classDiagram
     DecoradorDeCafe <|-- Leite
     DecoradorDeCafe <|-- Chantilly
     DecoradorDeCafe <|-- Caramelo
-    DecoradorDeCafe --> Cafe :
+    DecoradorDeCafe --> Cafe
 ```
 
 ## Explicação do Código
